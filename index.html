@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tech Jobs Website</title>
+</head>
+
+<body>
+  <header>
+    <h1>Programming Jobs</h1>
+  </header>
+
+  <main>
+    <section class="filter-section">
+      <div class="filter-box">
+        <label for="location-filter">Location:</label>
+        <input type="text" id="location-filter" placeholder="Enter location">
+      </div>
+
+      <div class="toggle-container">
+        <label class="toggle-button" for="toggle-checkbox">
+          <span class="theme-text">Theme</span>
+          <span class="toggle-button-inner"></span>
+        </label>
+      </div>
+
+
+
+
+      <div class="filter-box">
+        <label for="job-filter">Job Title:</label>
+        <input type="text" id="job-filter" placeholder="Enter job title">
+      </div>
+
+      <div class="filter-button-container">
+        <button id="apply-filters-button" class="filter-button">Filter</button>
+      </div>
+    </section>
+
+    <section id="job-listings" class="job-container">
+      <!-- Job listings will be dynamically generated here -->
+    </section>
+  </main>
+
+  <body>
+    <!-- Toggle button -->
+    <div id="toggle-button" class="toggle-button">
+      <div class="toggle-button-inner"></div>
+    </div>
+    
+    <!-- Rest of the code... -->
+  </body>
+  
+
+
+  <footer>
+    <div class="footer-content">
+      <p>Made by 7ev4n, all rights reserved.</p>
+    </div>
+  </footer>
+  
+
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Software Engineer",
+        "company": "TechCo",
+        "location": "San Francisco, CA",
+        "description": "We are seeking a talented Software Engineer to join our team...",
+        "requirements": "Bachelor's degree in Computer Science, proficiency in Java and JavaScript...",
+        "salary": "$100,000 - $120,000 per year"
+      },
+      {
+        "id": 2,
+        "title": "Web Developer",
+        "company": "WebTech",
+        "location": "New York, NY",
+        "description": "We are looking for a skilled Web Developer to build responsive websites...",
+        "requirements": "Experience in HTML, CSS, JavaScript, and familiarity with frameworks...",
+        "salary": "$80,000 - $100,000 per year"
+      },
+      {
+        "id": 3,
+        "title": "Data Scientist",
+        "company": "DataTech",
+        "location": "Seattle, WA",
+        "description": "Join our team as a Data Scientist and work on cutting-edge machine learning projects...",
+        "requirements": "Strong background in statistics, programming skills in Python, experience with data analysis...",
+        "salary": "$120,000 - $150,000 per year"
+      }
+    ]
+  }
+  

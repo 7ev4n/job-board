@@ -1,0 +1,282 @@
+/* Center align the title */
+header {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+/* Filter section styling */
+.filter-section {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f2f2f2;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filter-section h2 {
+    color: #444444; /* Dark gray color */
+  }
+  
+  
+  /* Filter box styling */
+  .filter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .filter-box label {
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+  }
+  
+  .filter-box input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Job listing container styling */
+  .job-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Job listing box styling */
+  .job-box {
+    flex: 0 0 calc(33.33% - 1rem);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Apply box styling */
+  .apply-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    padding-top: 1rem;
+  }
+  
+  .apply-button {
+    flex: 0 0 90%;
+    max-width: 400px;
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-button:hover {
+    background-color: #0033cc;
+  }
+  
+  .apply-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  /* Filter button styling */
+  .filter-button {
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-button:hover {
+    background-color: #0033cc;
+  }
+  
+  /* Updated styling for application boxes */
+  .job-application {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1rem;
+    flex-basis: 30%;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 250px; /* Set the desired height */
+  }
+  
+  .job-application-header {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-application-details {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-application-requirements {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-application-salary {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-application-apply {
+    margin-top: auto;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .apply-button {
+    text-decoration: none;
+  }
+
+
+/* Toggle button styling */
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button-inner {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s; /* Added background-color transition */
+  }
+  
+  .dark-mode .toggle-button-inner {
+    transform: translateX(20px);
+    background-color: #008a00; /* Green color */
+  }
+  
+
+
+/* Apply button styling */
+.apply-button {
+    flex: 0 0 90%;
+    max-width: 400px;
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .apply-button:hover {
+    background-color: #0033cc;
+  }
+  
+
+  /* Dark mode styling */
+  .dark-mode {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .dark-mode header,
+  .dark-mode .filter-section {
+    background-color: #000000; /* Dark gray color */
+  }
+    
+    .dark-mode .filter-box label,
+    .dark-mode .filter-box input[type="text"] {
+      color: #fff;
+    }
+    
+    .dark-mode .job-box {
+      background-color: #222;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+    
+    .dark-mode .apply-button {
+      background-color: #0000ff;
+      color: #fff;
+    }
+    
+    .dark-mode .apply-button:hover {
+      background-color: #0033cc;
+    }
+    
+    .dark-mode .filter-box input[type="text"] {
+      color: #fff;
+      background-color: transparent;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+  
+/* footer */
+
+  
+footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dark-mode footer {
+    background-color: #000;
+    color: #fff;
+  }
+
+  ::selection {
+    background-color: rgb(0, 31, 209);
+    color: white;
+  }
+  
+
+  .theme-text {
+    color: #000;
+    margin-right: 0.5rem;
+    margin-left: -7rem; /* Adjust the value as needed */
+  }
+  
+  .theme-text {
+    color: #000;
+  }
+  
+  .dark-mode .theme-text {
+    color: #fff;
+  }
+
