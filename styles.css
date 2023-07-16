@@ -280,3 +280,21 @@ footer {
     color: #fff;
   }
 
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 31, 209);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0a0e1b;
+  }
+
+
